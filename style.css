@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.header p,
+.footer p {
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    gap: 8px;
+    justify-content: center;
+    align-content: center
+}
+
+.main > div {
+    border: 1px solid black;
+    text-align: center;
+    line-height: 250px;
+    font-size: 200px
+}
+
+.gameover {
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer p {
+    font-size: xx-large;
+}
