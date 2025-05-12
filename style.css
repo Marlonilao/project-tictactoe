@@ -22,8 +22,8 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: repeat(3, 250px);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-columns: repeat(3, 170px);
+    grid-template-rows: repeat(3, 170px);
     gap: 8px;
     justify-content: center;
     align-content: center
@@ -34,8 +34,8 @@ body {
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
     border-radius: 6px;
     text-align: center;
-    line-height: 250px;
-    font-size: 200px;
+    line-height: 170px;
+    font-size: 120px;
     background: transparent;
     backdrop-filter: blur(20px);
     cursor: pointer;
